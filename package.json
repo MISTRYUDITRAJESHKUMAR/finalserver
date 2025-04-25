@@ -1,0 +1,21 @@
+{
+  "name": "final-server",
+  "version": "1.0.0",
+  "description": "fiinal",
+  "license": "ISC",
+  "author": "udit",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
